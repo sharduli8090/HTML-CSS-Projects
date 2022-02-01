@@ -1,2 +1,2 @@
 # HTML-CSS-Projects
-Projects usong HTML and CSS only
+Projects using HTML and CSS only
