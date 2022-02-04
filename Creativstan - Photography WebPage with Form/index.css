@@ -1,0 +1,94 @@
+#continue{
+    width: 47%;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 30px;
+    font-family:'Courier New', Courier, monospace;
+    background-color: rgb(231, 230, 151);
+    color: brown;
+    float: left;
+    margin-top: 20px;
+}
+
+#continue:hover,#continue:focus{
+    border-color: green;
+    border-width: 3px;
+    background-color: yellow;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    cursor:pointer;
+    border-style: solid;
+}
+
+#reset{
+    width: 47%;
+    float: right;
+    margin-top: 20px;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 30px;
+    font-family:'Courier New', Courier, monospace;
+    background-color: rgb(241, 95, 127);
+    color: rgb(102, 2, 2);
+}
+
+#reset:hover,#reset:focus{
+    border-color: orange;
+    border-width: 3px;
+    background-color: red;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    cursor:pointer;
+    border-style: solid;
+}
+
+#box{
+    background-color: rgb(136, 0, 57);
+    margin-left: 300px;
+    margin-right: 300px;
+    width: 60%;
+    border-radius: 20px;
+    padding-left: 40px;
+    padding-right: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    box-shadow: 0px 5px 300px rgb(255, 255, 255);
+}
+
+.label{
+    padding-top: 5px;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-style: italic;
+    border-radius: 20px;
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+img:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; 
+}
